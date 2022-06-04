@@ -1,0 +1,16 @@
+
+public class terminology {
+	class Person { //クラス(設計書)"Person"
+		String name; //クラスの中身・情報
+		int age; //クラスの中身・情報
+		
+		Person(String name, int age){ //コンストラクタ？
+			this.name = name;
+			this.age = age;
+		}
+	}
+	
+	public static void main(String[] args) {
+		Person sample = new Person("太郎", 15);
+	}
+}
