@@ -21,3 +21,5 @@ public class ClassMethod01 {
 		System.out.println("名前は" + lee.name + "で、年齢は" + lee.age + "です");
 	}
 }
+
+//なるほどね・・・？？

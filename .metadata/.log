@@ -2012,3 +2012,13 @@ java.io.IOException: Stream closed
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
 	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+!SESSION 2022-06-04 15:21:33.692 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/kaduki/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/kaduki/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 2 2022-06-04 18:56:38.503
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
