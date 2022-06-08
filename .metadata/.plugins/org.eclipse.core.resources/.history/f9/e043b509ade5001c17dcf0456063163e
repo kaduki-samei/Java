@@ -8,18 +8,7 @@ public class Practice02No4 {
 		int[] num = new int[20];
 		for (int n = 1; n < num.length; n++) {
 			num[n] += num[(n - 1)] + 5;
-		}
-		
-		for (int index = 0; index <= 10; index++) {
-			if (index % 2 == 0) {
-				continue;
-			}
-			System.out.print(num[index] + ",");
-		}
-		for (int index = 11; index <= 19; index++) {
-			if (index % 2 == 0) {
-				System.out.print(num[index] + ",");
-			}
+			System.out.println(num[n]);
 		}
 	}
 }

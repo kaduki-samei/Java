@@ -11,8 +11,8 @@ public class Practice02No2 {
 				c++;
 				s += i;
 			}
+			System.out.println("偶数は" + c "個で、和は" + s + "です");
 		}
-		System.out.println("偶数は" + c + "個で、和は" + s + "です");
 	}
 }
 

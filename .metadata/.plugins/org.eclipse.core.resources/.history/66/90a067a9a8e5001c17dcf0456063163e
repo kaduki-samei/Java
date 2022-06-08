@@ -12,7 +12,7 @@ public class Practice02No2 {
 				s += i;
 			}
 		}
-		System.out.println("偶数は" + c + "個で、和は" + s + "です");
+		System.out.println(c + "個で合計は" + s);
 	}
 }
 

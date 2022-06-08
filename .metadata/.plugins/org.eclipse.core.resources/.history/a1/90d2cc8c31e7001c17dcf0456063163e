@@ -14,7 +14,7 @@ public class Practice02No3 {
 				str += i;
 				flg = false;
 			} else {
-				str += "," + i;
+				str += ";" + i;
 			}
 		}
 		System.out.println(str);
