@@ -13,10 +13,6 @@ public class Practice02No09 {
 			"beef1001"
 		};
 		
-		for (String str : user) {
-			System.out.println(str);
-		}
-		
 	}
 
 }
